@@ -5,7 +5,6 @@ public class Main {
 
         int a = 60;
 
-
         if (a < 19) {
             System.out.println(a);
         } else if (a >= 20 && a < 60) {
