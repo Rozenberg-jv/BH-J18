@@ -3,22 +3,24 @@ package by.behlard.j18.homeworks.hw3;
 import java.util.Arrays;
 
 public class Task6 {
-    public static void main(String[] args) {
 
-        int[] arr = {1, 5, 81, 13, 8, 11, -9, 27, 0, 7};
-        int sum = 0;
+	public static void main(String[] args) {
 
-        for (int a : arr)
-            sum += a;
+		int[] a = new int[] {30, 18, 21, 19, 19, 11, 5, 7, 5, 17};
+		int sum = 0;
 
-        double avg = (double) sum / arr.length;
+		for (int i : a)
+			sum += i;
 
-        System.out.println("sum: " + sum);
-        System.out.println("avg: " + avg);
+		double avg = (double) sum / a.length;
 
-        Arrays.sort(arr);
+		System.out.println("sum: " + sum);
+		System.out.println("average: " + avg);
 
+		Arrays.sort(a);
+		double median = a.length % 2 == 0 ? ((double) a[a.length / 2 - 1] + a[a.length / 2]) / 2 : a[a.length / 2];
 
+		System.out.println("median: " + median);
 
-    }
+	}
 }
