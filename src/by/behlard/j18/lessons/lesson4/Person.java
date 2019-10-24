@@ -22,7 +22,8 @@ public class Person {
 
     public Person(String name, int age, Country country) {
 
-        this(name, age, country, Sex.MALE);
+//        this(name, age, country, Sex.MALE);
+        new Person(name, age, country, Sex.MALE);
     }
 
     public int growOld() {
