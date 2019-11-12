@@ -10,7 +10,7 @@ public class VasilyTheKind {
 
 		if (!requests.containsKey(name))
 			requests.put(name, new ArrayList<>() {{
-				addAll(Arrays.asList(items));
+				this.addAll(Arrays.asList(items));
 			}});
 		else
 			requests.get(name).addAll(Arrays.asList(items));
