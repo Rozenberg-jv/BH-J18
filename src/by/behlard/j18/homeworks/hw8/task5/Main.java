@@ -1,8 +1,8 @@
-package by.behlard.j18.homeworks.hw9.task5;
+package by.behlard.j18.homeworks.hw8.task5;
 
-import by.behlard.j18.homeworks.hw9.task5.pets.Cat;
-import by.behlard.j18.homeworks.hw9.task5.pets.Dog;
-import by.behlard.j18.homeworks.hw9.task5.pets.Fish;
+import by.behlard.j18.homeworks.hw8.task5.pets.Cat;
+import by.behlard.j18.homeworks.hw8.task5.pets.Dog;
+import by.behlard.j18.homeworks.hw8.task5.pets.Fish;
 
 public class Main {
 

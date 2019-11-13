@@ -1,4 +1,4 @@
-package by.behlard.j18.homeworks.hw9.task3;
+package by.behlard.j18.homeworks.hw8.task3;
 
 import java.util.HashMap;
 import java.util.Map;

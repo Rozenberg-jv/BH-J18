@@ -1,4 +1,4 @@
-package by.behlard.j18.homeworks.hw9.task2;
+package by.behlard.j18.homeworks.hw8.task2;
 
 import java.util.Objects;
 

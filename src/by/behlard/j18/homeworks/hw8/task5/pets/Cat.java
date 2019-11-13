@@ -1,4 +1,4 @@
-package by.behlard.j18.homeworks.hw9.task5.pets;
+package by.behlard.j18.homeworks.hw8.task5.pets;
 
 public class Cat extends Pet {
 

@@ -1,4 +1,4 @@
-package by.behlard.j18.homeworks.hw9.task1;
+package by.behlard.j18.homeworks.hw8.task1;
 
 import java.util.Arrays;
 import java.util.List;
