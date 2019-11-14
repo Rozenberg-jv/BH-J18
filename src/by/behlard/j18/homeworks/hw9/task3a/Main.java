@@ -59,6 +59,9 @@ public class Main {
 
 		String[] split = input.split("[" + operator + "]");
 
-		return operation.applyAsDouble(Double.parseDouble(split[0]), Double.parseDouble(split[1]));
+		return operation.applyAsDouble(
+				Double.parseDouble(split[0]),
+				Double.parseDouble(split[1])
+		);
 	}
 }

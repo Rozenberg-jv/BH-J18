@@ -20,6 +20,6 @@ public class TryOut {
 
 		System.out.println("appname: " + properties.getProperty("app.name"));
 		System.out.println("version: " + properties.getProperty("app.version"));
-		System.out.println("key: " + properties.getProperty("my.key"));
+		System.out.println("key: " + properties.getProperty("key"));
 	}
 }
