@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.function.DoubleBinaryOperator;
-
+//
 public class Main {
 
 	private static final DoubleBinaryOperator plus = (a, b) -> a + b;
